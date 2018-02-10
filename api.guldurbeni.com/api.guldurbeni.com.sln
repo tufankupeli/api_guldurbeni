@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{DE44FA9F-0832-4A0F-ACDD-289F26788B2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{56B18F20-D777-4298-BE7D-302A843000DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{3B7314B4-585F-40A3-9F9E-B37A79285AEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1AF4259D-C643-436D-A301-9626AFB86285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{F9107154-2B8A-4108-9CAC-CCFBC1B47F9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{2859961E-E8CF-4954-909D-07F33291716D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guldurbeni.presentation.api", "source\Presentation\guldurbeni.presentation.api\guldurbeni.presentation.api.csproj", "{9AA53159-C65A-4A32-9334-F82705536B74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AA53159-C65A-4A32-9334-F82705536B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA53159-C65A-4A32-9334-F82705536B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA53159-C65A-4A32-9334-F82705536B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA53159-C65A-4A32-9334-F82705536B74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56B18F20-D777-4298-BE7D-302A843000DA} = {DE44FA9F-0832-4A0F-ACDD-289F26788B2F}
+		{3B7314B4-585F-40A3-9F9E-B37A79285AEA} = {DE44FA9F-0832-4A0F-ACDD-289F26788B2F}
+		{1AF4259D-C643-436D-A301-9626AFB86285} = {DE44FA9F-0832-4A0F-ACDD-289F26788B2F}
+		{F9107154-2B8A-4108-9CAC-CCFBC1B47F9B} = {DE44FA9F-0832-4A0F-ACDD-289F26788B2F}
+		{2859961E-E8CF-4954-909D-07F33291716D} = {DE44FA9F-0832-4A0F-ACDD-289F26788B2F}
+		{9AA53159-C65A-4A32-9334-F82705536B74} = {1AF4259D-C643-436D-A301-9626AFB86285}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9607BB63-3E60-4E62-9884-BB91B13FA2EC}
+	EndGlobalSection
+EndGlobal
