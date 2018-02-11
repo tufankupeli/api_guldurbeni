@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
 
-namespace guldurbeni.presentation.Controllers
+namespace guldurbeni.presentation.controllers.Generic
 {
     public class ConfigurationsController : ApiController
     {

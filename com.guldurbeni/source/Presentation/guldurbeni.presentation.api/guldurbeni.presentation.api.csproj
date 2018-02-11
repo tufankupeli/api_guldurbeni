@@ -174,7 +174,7 @@
     <None Include="Properties\PublishProfiles\api_file_deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\guldurbeni.presentation.controller\guldurbeni.presentation.controllers.csproj">
+    <ProjectReference Include="..\guldurbeni.presentation.controllers\guldurbeni.presentation.controllers.csproj">
       <Project>{c9cf3fa2-96f6-4830-87d5-5afbe76568d9}</Project>
       <Name>guldurbeni.presentation.controllers</Name>
     </ProjectReference>

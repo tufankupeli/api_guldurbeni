@@ -7,8 +7,8 @@
     <ProjectGuid>{C9CF3FA2-96F6-4830-87D5-5AFBE76568D9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>guldurbeni.presentation.controller</RootNamespace>
-    <AssemblyName>guldurbeni.presentation.controller</AssemblyName>
+    <RootNamespace>guldurbeni.presentation.controllers</RootNamespace>
+    <AssemblyName>guldurbeni.presentation.controllers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -51,12 +51,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConfigurationsController.cs" />
+    <Compile Include="Generic\ConfigurationsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValuesController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Panel\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
