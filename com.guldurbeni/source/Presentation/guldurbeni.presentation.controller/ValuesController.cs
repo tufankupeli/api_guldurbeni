@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Collections.Generic;
 using System.Web.Http;
 
-namespace guldurbeni.presentation.api.Controllers
+namespace guldurbeni.presentation.Controllers
 {
     public class ValuesController : ApiController
     {

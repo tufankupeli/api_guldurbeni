@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guldurbeni.presentation.apimodel", "source\Presentation\guldurbeni.presentation.apimodel\guldurbeni.presentation.apimodel.csproj", "{E2388BF5-FC78-4E78-A866-5685E334A927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guldurbeni.presentation.controller", "source\Presentation\guldurbeni.presentation.controller\guldurbeni.presentation.controller.csproj", "{C9CF3FA2-96F6-4830-87D5-5AFBE76568D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guldurbeni.presentation.controllers", "source\Presentation\guldurbeni.presentation.controller\guldurbeni.presentation.controllers.csproj", "{C9CF3FA2-96F6-4830-87D5-5AFBE76568D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{58482BB9-3493-43C1-A5DA-58FA5153A1F9}"
 EndProject
