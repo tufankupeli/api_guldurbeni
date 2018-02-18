@@ -1,4 +1,5 @@
-﻿using System;
+﻿using guldurbeni.presentation.api.Session;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
@@ -15,11 +16,11 @@ namespace guldurbeni.presentation.api
             // Web API routes
             config.MapHttpAttributeRoutes();
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
-            config.Routes.MapHttpRoute(
+            var route = config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+                routeTemplate: "api/{controller}/{key}"
             );
+
         }
     }
 }
